@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人简介</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">我的个人空间</div>
+            <ul>
+                <li><a href="#about-me">关于我</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>你好！我是[梁智邦]</h1>
+            <p>一名来自[广西]的[计算机学生]</p>
+            <a href="#about-me" class="btn">了解更多</a>
+        </div>
+    </section>
+
+    <section id="about-me">
+        <h2>关于我</h2>
+        <p>大家好，我叫梁智邦，目前就读于西安航空学院计算机科学与技术专业，是一名大三的学生。
+            我来自广西壮族自治区玉林市，对计算机科学和技术有着浓厚的兴趣，特别是软件开发和人工智能领域。
+            在大学期间，我系统地学习了计算机科学的基础课程，包括数据结构、算法设计、操作系统、数据库原理、计算机网络等。
+            此外，我还选修了一些高级课程，如机器学习、深度学习和自然语言处理，这些课程不仅丰富了我的知识体系，
+            也激发了我对人工智能领域的兴趣。
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>技能</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js-square"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <!-- 添加更多技能 -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>联系我</h2>
+        <form action="#" method="post">
+            <label for="name">姓名:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">邮箱:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">消息:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">发送</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [你的名字]. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
